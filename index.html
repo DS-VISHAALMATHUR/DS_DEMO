@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Survey Form</title>
+</head>
+<body>
+    <h1>Survey Form</h1>
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <p>Age Group:</p>
+        <input type="radio" id="under18" name="age" value="under18">
+        <label for="under18">Under 18</label><br>
+        <input type="radio" id="18-30" name="age" value="18-30">
+        <label for="18-30">18-30</label><br>
+        <input type="radio" id="31-50" name="age" value="31-50">
+        <label for="31-50">31-50</label><br>
+        <input type="radio" id="over50" name="age" value="over50">
+        <label for="over50">Over 50</label><br><br>
+        
+        <p>Favorite Programming Language:</p>
+        <input type="checkbox" id="javascript" name="language" value="javascript">
+        <label for="javascript">JavaScript</label><br>
+        <input type="checkbox" id="python" name="language" value="python">
+        <label for="python">Python</label><br>
+        <input type="checkbox" id="java" name="language" value="java">
+        <label for="java">Java</label><br><br>
+        
+        <label for="comments">Comments:</label><br>
+        <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
